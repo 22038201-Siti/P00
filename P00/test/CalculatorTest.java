@@ -43,12 +43,12 @@ public class CalculatorTest {
 	@Test
 	public void testMultiply() {
 		//fail("Not yet implemented");
-		int a = 10;
+		int a = 5;
 		int b = 2;
 		Calculator cal = new Calculator();
 		int actual = cal.multiply(a,b);
 		
-		int expected = 20;
+		int expected = 10;
 		assertEquals (expected, actual);
 	}
 	
